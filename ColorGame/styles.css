@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif');
+
+body {
+	background-color: #232323;
+	font-family: "Noto Serif";
+	margin: 0;
+}
+
+.square {
+	width: 30%;
+	padding-bottom: 30%;
+	float: left;
+	margin: 1.66%;
+	border-radius: 15%;
+	transition: background 0.5s;
+}
+
+#container {
+	max-width: 600px;
+	margin: 0 auto;
+	padding-top: 2%;
+}
+
+h1 {
+	font-weight: bold;
+	letter-spacing: 2px;
+	margin: 0;
+	line-height: 3;
+	background-color: #FF6347;
+	color: white;
+}
+
+h1, #message {
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#message {
+	display: inline-block;
+	color: white;
+	background-color: black; 
+	font-weight: bold;
+	width: 150px;
+	margin: 0;
+}
+
+#stripe {
+	background: white;
+	height: 30px;
+	text-align: center;
+}
+
+.selected {
+	background: #FF6347;
+	color: white;
+}
+
+button {
+	border: none;
+	background: none;
+	text-transform: uppercase;
+	padding-top: 5px;
+	letter-spacing: 2px;
+	color: darkgrey;
+	position: relative;
+	margin-bottom: 0;
+	transition: all 0.3s;
+	outline: none;
+}
+
+button:hover {
+	color: white;
+	background-color: #FF6347;
+}
